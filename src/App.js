@@ -1,6 +1,8 @@
 import './App.css';
 import Banner from './Components/Banner';
 import Bussiness_Partner from './Components/BussinessPartner';
+import Focal_Person from './Components/FocalPerson';
+import Footer from './Components/Footer';
 import Image_Slider from './Components/Image_Slider';
 import Links from './Components/Links';
 import Navbar from './Components/Navbar';
@@ -21,6 +23,8 @@ function App() {
   <Links/>
   <News/>
   <Bussiness_Partner/>
+  <Focal_Person/>
+  <Footer/>
     </>
   );
 }
