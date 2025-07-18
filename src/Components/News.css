@@ -1,0 +1,10 @@
+.media-box {
+  aspect-ratio: 3 / 2; /* maintains same ratio for image and map */
+  min-height: 300px;
+  max-height: 400px;
+  background-color: #f8f9fa;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}

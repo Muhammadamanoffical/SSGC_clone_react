@@ -1,0 +1,45 @@
+.partner-slider-section {
+  overflow: hidden;
+  position: relative;
+}
+
+.partner-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.partner-track {
+  display: flex;
+  gap: 40px;
+  width: calc(280px * 36); /* Adjust width based on number of images * 2 */
+  animation: scroll-left 30s linear infinite;
+}
+
+.partner-logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.0333s ease-in-out;
+  
+}
+
+.partner-logo:hover {
+  transform: scale(1.1);
+  
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-logo {
+    width: 120px;
+  }
+}
